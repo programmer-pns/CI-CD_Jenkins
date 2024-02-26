@@ -15,6 +15,6 @@ public class RestController {
 
     @GetMapping("/")
     public String home(){
-        return "Welcome to Pipeline Testing Home Page";
+        return "Welcome to Pipeline Testing Home Page with Jenkins";
     }
 }
